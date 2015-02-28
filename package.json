@@ -1,9 +1,10 @@
 {
   "name": "jstransformer-remarkable",
   "version": "1.0.0",
-  "description": "Transform markdown into HTML using remarkable",
+  "description": "Remarkable support for JS Transformers.",
   "keywords": [
-    "jstransformer"
+    "jstransformer",
+    "markdown"
   ],
   "dependencies": {
     "remarkable": "^1.6.0"
@@ -15,6 +16,10 @@
     "type": "git",
     "url": "https://github.com/jstransformer/jstransformer-remarkable.git"
   },
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
   "author": "ForbesLindesay",
   "license": "MIT"
 }
