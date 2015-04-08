@@ -7,6 +7,7 @@ var versions = {};
 
 exports.name = 'remarkable';
 exports.outputFormat = 'html';
+exports.inputFormats = ['remarkable', 'md', 'markdown'];
 exports.render = function (str, options) {
   var md;
   if (!options ||
