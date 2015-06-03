@@ -3,8 +3,6 @@
 var Remarkable  = require('remarkable');
 var defaultMd = new Remarkable();
 
-var versions = {};
-
 exports.name = 'remarkable';
 exports.outputFormat = 'html';
 exports.inputFormats = ['remarkable', 'md', 'markdown'];
