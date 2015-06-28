@@ -1,9 +1,8 @@
 'use strict';
 
+var extend = require('extend');
 var Remarkable  = require('remarkable');
 var defaultMd = new Remarkable();
-
-var versions = {};
 
 exports.name = 'remarkable';
 exports.outputFormat = 'html';
