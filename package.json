@@ -1,7 +1,7 @@
 {
   "name": "jstransformer-remarkable",
-  "version": "1.0.0",
-  "description": "Remarkable support for JS Transformers.",
+  "version": "1.1.0",
+  "description": "Remarkable support for JSTransformers.",
   "keywords": [
     "jstransformer",
     "markdown"
