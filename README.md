@@ -14,9 +14,9 @@
 ## API
 
 ```js
-var foo = require('jstransformer')(require('jstransformer-foo'))
+var remarkable = require('jstransformer')(require('jstransformer-foo'))
 
-foo.render('# Hello World!').body
+remarkable.render('# Hello World!').body
 //=> '<h1>Hello World!</h1>'
 ```
 
