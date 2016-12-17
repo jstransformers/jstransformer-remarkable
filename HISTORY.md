@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.2: 2016-12-17
+
+- Updated Boilerplate
+
 ## v1.1.1: 2015-06-28
 
 - Removed use of extend
