@@ -1,15 +1,15 @@
 'use strict'
 
-var Remarkable = require('remarkable')
+const Remarkable = require('remarkable')
 
-var defaultMd = new Remarkable()
+const defaultMd = new Remarkable()
 
 exports.name = 'remarkable'
 exports.outputFormat = 'html'
 exports.inputFormats = ['remarkable', 'md', 'markdown']
 
 exports.render = function (str, options) {
-  var md
+  let md
   if (!options ||
       (typeof options === 'object' && Object.keys(options).length === 0)) {
     md = defaultMd

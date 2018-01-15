@@ -1,9 +1,9 @@
 {
   "dependencies": {
-    "remarkable": "^1.6.0"
+    "remarkable": "^1.7.1"
   },
   "name": "jstransformer-remarkable",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Remarkable support for JSTransformers.",
   "keywords": [
     "jstransformer",
@@ -14,7 +14,7 @@
   ],
   "devDependencies": {
     "test-jstransformer": "^1.0.0",
-    "xo": "^0.18.1"
+    "xo": "*"
   },
   "scripts": {
     "coverage": "test-jstransformer coverage",
