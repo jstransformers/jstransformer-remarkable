@@ -16,5 +16,6 @@ exports.render = function (str, options) {
   } else {
     md = new Remarkable(options)
   }
+
   return md.render(str, options)
 }
