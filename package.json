@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "remarkable": "^1.7.1"
+    "remarkable": "^2.0.0"
   },
   "name": "jstransformer-remarkable",
   "version": "1.2.0",
